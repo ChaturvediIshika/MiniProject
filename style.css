@@ -104,9 +104,17 @@ nav li{
     color: #CF0A0A;
     
 }
+.btn:hover{
+    box-shadow: 1px 1px 1px gray;
+    background-color: white;
+    color: red;
+}
 .tictac{
     background-image: url("./images/Tic_tac_toe.svg.png");
 }
 .wordle{
     background-image: url("./images/wordle-nl.webp");
+}
+.drum{
+    background-image: url("./images/drum-set-500x500.webp");
 }
