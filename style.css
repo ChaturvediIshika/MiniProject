@@ -5,14 +5,18 @@
 
 /* header */
 #header1{
+    width: 100%;
     padding: 20px;
     background-color: rgb(200, 34, 200);
     opacity: 0.75;
-    height: 30px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    position:fixed;
+    top: 0;
+    z-index: 10;
 }
 .logo{
     display: flex;
@@ -20,12 +24,14 @@
     align-items: center;
 }
 #header1 ul{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
 }
 #header1 li{
     list-style: none;
-    display: inline-block;
-    padding-right: 20px;
+    padding:0px 10px;
     font-size: 20px;
     
 }
@@ -33,6 +39,7 @@
     text-decoration: none;
     color: white;
     opacity: 1;
+    
 }
 #header1 h1{
     display: inline-block;
@@ -62,7 +69,8 @@
 }
 
 #games{
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 100px;
     width: 100%;
     background-image: url("https://previews.123rf.com/images/urzine/urzine2011/urzine201100001/159058027-3d-illustration-background-for-advertising-and-wallpaper-in-80s-retro-and-sci-fi-pop-art-scene-3d-re.jpg");
     background-size: cover;
@@ -74,17 +82,25 @@
     height: 60px;
 }
 .cards{
-    height:300px;
-    width: 400px;
+    height:500px;
+    width: 600px;
     display: grid;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20px;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
 }
+.cards div{
+    transition: 1s;
+    box-shadow: 3px 3px 5px black;
+}
+.cards div:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
 .image{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     background-image: url("./images/2048.png");
     background-size: cover;
 }
@@ -104,9 +120,33 @@
     background-image: url("https://images.unsplash.com/photo-1589997419427-daff54553276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
 }
 .sub{
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+}
+
+#carouselExampleSlidesOnly{
+    height: 100vh;
+    
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    background-size: cover;
+}
+
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    background-color: palevioletred;
 }
