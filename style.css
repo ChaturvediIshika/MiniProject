@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -118,6 +119,11 @@
 }
 .im5{
     background-image: url("https://images.unsplash.com/photo-1589997419427-daff54553276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+}
+.im6{
+    background-image: url("https://codecanyon.img.customer.envatousercontent.com/files/321864068/inline-preview.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=1b054cd4c7f4bc7e2c7c3615ac1ab784");
+    background-size: cover;
+    background-position: center;
 }
 .sub{
     /* height: 50vh; */
