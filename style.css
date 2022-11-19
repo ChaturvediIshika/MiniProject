@@ -189,7 +189,7 @@
     color: purple;
     font-weight: bold;
     padding: 50px;
-    line-height: 2;
+    line-height: 1.5;
 }
 .profile a{
     color: purple;
@@ -198,3 +198,19 @@
     font-size: 30px;
 }
 
+.footer{
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: 0px 50px 0px 600px;
+}
+.footer a{
+    color: white;
+}
+.footer i{
+    
+}
