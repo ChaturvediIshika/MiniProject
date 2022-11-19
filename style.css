@@ -137,6 +137,13 @@
     height: 100vh;
     width: 100%;
     background-color: pink;
+    position: relative;
+    background-image: url("https://www.hdwallpapers.in/download/dark_purple_flowers_green_leaves_hd_purple_aesthetic-1920x1080.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25%;
 }
 
 #carouselExampleSlidesOnly{
@@ -156,3 +163,38 @@
     width: 100%;
     background-color: palevioletred;
 }
+.b{
+
+    height: 300px;
+    width: 800px;
+    border: 5px solid purple;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: plum;
+
+}
+.b img{
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+    background-size: contain;
+    margin-top: 20px;
+    border: 2px solid purple;
+    box-shadow: 5px 5px 5px purple;
+    float: left;
+    margin-right: 50px;
+}
+.profile{
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 2;
+}
+.profile a{
+    color: purple;
+}
+.q{
+    font-size: 30px;
+}
+
