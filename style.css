@@ -232,7 +232,7 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
-  input[type=submit] {
+  .btn{
     background-color: #17b1cf;
     color: white;
     padding: 12px 20px;
@@ -241,7 +241,7 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  .btn:hover {
     background-color: purple;
   }
   
