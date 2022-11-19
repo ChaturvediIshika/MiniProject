@@ -159,7 +159,6 @@
 
 
 #contact{
-    height: 100vh;
     width: 100%;
     background-color: palevioletred;
 }
@@ -198,7 +197,62 @@
     font-size: 30px;
 }
 
-.footer{
+
+.contus{
+    /* height: 100vh; */
+    width: 100%;
+    background-image: url("https://img.freepik.com/premium-vector/universe-space-purple-theme-background_94250-354.jpg?w=2000");
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 50px;  
+    padding-top: 50px;
+}
+.contuscontent{
+    color: aliceblue;
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 3px solid rgb(177, 28, 163); /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email]{
+    width: 100%; 
+    padding: 12px; /* Some padding */ 
+    border: 3px solid rgb(177, 28, 163); /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #17b1cf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: purple;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container11 {
+    border-radius: 8px;
+    background-color: plum;
+    padding: 20px;
+  }
+
+  .footer{
     height: 100px;
     background-color: purple;
     display: flex;
@@ -210,7 +264,4 @@
 }
 .footer a{
     color: white;
-}
-.footer i{
-    
 }
