@@ -43,6 +43,35 @@
     
 }
 
+#content{
+    animation: s 5s linear infinite;
+}
+@keyframes s {
+    0%{
+        transform: scale(.25);
+    }
+    25%
+    {
+        transform: scale(.5);
+  
+    }
+    50%
+    {
+        transform: scale(1);
+       
+    }
+    75%
+    {
+        transform: scale(.5);
+       
+    }
+    100%
+    {
+        transform: scale(0.25);
+   
+    }
+}
+
 #brain{
     display: flex;
     color: white;
