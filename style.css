@@ -42,8 +42,9 @@
     opacity: 1;
     
 }
-#header1 h1{
-    display: inline-block;
+
+#brain{
+    display: flex;
     color: white;
     opacity: 1;
 }
@@ -83,12 +84,15 @@
     height: 60px;
 }
 .cards{
-    height:500px;
-    width: 600px;
-    display: grid;
-    row-gap: 10px;
-    column-gap: 20px;
-    grid-template-columns: repeat(3,1fr);
+    /* height:500px; */
+    /* width: 600px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* row-gap: 10px; */
+    /* column-gap: 20px;
+    grid-template-columns: repeat(3,1fr); */
     align-items: center;
 }
 .cards div{
@@ -104,6 +108,7 @@
     width: 200px;
     background-image: url("./images/2048.png");
     background-size: cover;
+    margin: 20px;
 }
 .im1{
     background-image: url("https://play-lh.googleusercontent.com/uhuQB6-Ejacm0iEhgjJTd0k5fZTb7uXQtEiDg2oucDqa-llDaBjEaWJckBdxWu9Wd26W=w240-h480-rw");
@@ -134,7 +139,7 @@
 }
 
 #about{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-color: pink;
     position: relative;
@@ -143,15 +148,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25%;
+    padding: 25% 0px;
 }
 
 #carouselExampleSlidesOnly{
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 .carousel-item{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .carousel-item img{
     background-size: cover;
@@ -164,12 +169,14 @@
 }
 .b{
 
-    height: 300px;
+    /* height: 300px; */
     width: 800px;
     border: 5px solid purple;
     border-radius: 20px;
     padding-left: 20px;
     background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .b img{
@@ -180,10 +187,10 @@
     margin-top: 20px;
     border: 2px solid purple;
     box-shadow: 5px 5px 5px purple;
-    float: left;
     margin-right: 50px;
 }
 .profile{
+    width: 300px;
     font-size: 20px;
     color: purple;
     font-weight: bold;
@@ -256,12 +263,25 @@ input[type=text], select, textarea {
     height: 100px;
     background-color: purple;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
     font-size: 30px;
-    padding: 0px 50px 0px 600px;
+    
 }
 .footer a{
     color: white;
+}
+
+
+@media screen and (max-width:810px){
+    #brain{
+        display: none;
+    }
+    .b{
+        width: 400px;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
 }
