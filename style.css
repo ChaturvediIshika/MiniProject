@@ -173,9 +173,11 @@
     width: 800px;
     border: 5px solid purple;
     border-radius: 20px;
-    padding-left: 20px;
+    padding:20px;
     background-color: plum;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -184,17 +186,17 @@
     width: 250px;
     border-radius:50%;
     background-size: contain;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border: 2px solid purple;
     box-shadow: 5px 5px 5px purple;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .profile{
     width: 300px;
     font-size: 20px;
     color: purple;
     font-weight: bold;
-    padding: 50px;
+    padding: 20px;
     line-height: 1.5;
 }
 .profile a{
@@ -273,15 +275,33 @@ input[type=text], select, textarea {
     color: white;
 }
 
-
+.container11{
+    width: 40%;
+    margin: auto;
+}
 @media screen and (max-width:810px){
     #brain{
         display: none;
     }
     .b{
-        width: 400px;
+        width: 300px;
     }
     .cards{
         grid-template-columns: 1fr;
+    }
+    #content{
+        font-size: 50px;
+    }
+    /* #logo{
+        display: none;
+    } */
+    .container11{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:450px){
+    #logo{
+        display: none;
     }
 }
