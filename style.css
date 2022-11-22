@@ -88,7 +88,7 @@
 #body{
     height: 100vh;
     width: 100%;
-    background-image: url("https://www.jiomart.com/images/product/600x600/rvwjiyll6q/wens-multicolor-vinyl-unicorn-fantasy-land-self-adhesive-wall-poster-24-x-36-inch-product-images-orvwjiyll6q-p590832171-0-202110241025.jpg");
+    background-image: url("./images/homepage.jpg");
     background-size: cover;
 }
 #content{
@@ -103,7 +103,7 @@
     /* height: 100vh; */
     padding: 100px;
     width: 100%;
-    background-image: url("https://previews.123rf.com/images/urzine/urzine2011/urzine201100001/159058027-3d-illustration-background-for-advertising-and-wallpaper-in-80s-retro-and-sci-fi-pop-art-scene-3d-re.jpg");
+    background-image: url("./images/games.webp");
     background-size: cover;
     opacity: 0.75;    
 }
@@ -135,29 +135,28 @@
 .image{
     height: 200px;
     width: 200px;
-    background-image: url("./images/2048.png");
+    background-size: cover;
+    background-position: center;
     background-size: cover;
     margin: 20px;
 }
 .im1{
-    background-image: url("https://play-lh.googleusercontent.com/uhuQB6-Ejacm0iEhgjJTd0k5fZTb7uXQtEiDg2oucDqa-llDaBjEaWJckBdxWu9Wd26W=w240-h480-rw");
+    background-image: url("./images/im1.webp");
 }
 .im2{
-    background-image: url("https://cdn.ezjojoy.com/packages/com.orange.simon.memory.game/icon_289ea8.png");
+    background-image: url("./images/im2.webp");
 }
 .im3{
-    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/99/21/tic-tac-toe-game-linear-outline-icon-colour-neon-vector-35229921.jpg");
+    background-image: url("./images/im3.jpg");
 }
 .im4{
-    background-image: url("https://images.summitmedia-digital.com/candy/images/2022/02/03/bts-wordle.jpg");
+    background-image: url("./images/im4.jpg");
 }
 .im5{
-    background-image: url("https://images.unsplash.com/photo-1589997419427-daff54553276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    background-image: url("./images/im5.jpeg");
 }
 .im6{
-    background-image: url("https://codecanyon.img.customer.envatousercontent.com/files/321864068/inline-preview.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=1b054cd4c7f4bc7e2c7c3615ac1ab784");
-    background-size: cover;
-    background-position: center;
+    background-image: url("./images/im6.avif");
 }
 .sub{
     /* height: 50vh; */
@@ -172,7 +171,7 @@
     width: 100%;
     background-color: pink;
     position: relative;
-    background-image: url("https://www.hdwallpapers.in/download/dark_purple_flowers_green_leaves_hd_purple_aesthetic-1920x1080.jpg");
+    background-image: url("./images/dark_purple_flowers_green_leaves_hd_purple_aesthetic-1920x1080\ \(1\).jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -239,7 +238,7 @@
 .contus{
     /* height: 100vh; */
     width: 100%;
-    background-image: url("https://img.freepik.com/premium-vector/universe-space-purple-theme-background_94250-354.jpg?w=2000");
+    background-image: url("./images/contact.webp");
     background-size: cover;
     opacity: 1;
     padding-bottom: 50px;  
