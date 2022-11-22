@@ -24,7 +24,10 @@
     justify-content: center;
     align-items: center;
 }
-#header1 ul{
+#M{
+    display: none;
+}
+#WM{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,8 +139,6 @@
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-position: center;
-    background-size: cover;
     margin: 20px;
 }
 .im1{
@@ -157,6 +158,8 @@
 }
 .im6{
     background-image: url("./images/im6.avif");
+    background-size: cover;
+    background-position: center;
 }
 .sub{
     /* height: 50vh; */
@@ -329,7 +332,16 @@ input[type=text], select, textarea {
 }
 
 @media screen and (max-width:450px){
-    #logo{
+    /* #logo{
         display: none;
+    } */
+    #WM{
+        display: none;
+    }
+    #M{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
     }
 }
